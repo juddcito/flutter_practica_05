@@ -11,14 +11,16 @@ class SliderPage extends StatefulWidget {
 }
 
 class _SliderPageState extends State<SliderPage> {
+
   double valor = 100;
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Slider Page'),
         centerTitle: true,
-        backgroundColor: Colors.green[300],
+        backgroundColor: Colors.lightGreen[500],
         elevation: 0.0,
       ),
       body: Column(
